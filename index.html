@@ -13,55 +13,49 @@
 <body>
     
     <div id="cortana">      
-        <h2 id="name">Cortana</h2>
-        <div id="direction">
-            <div class="backCircle"></div>
-            <button type="button" onclick="moveUp()" class="up"><i class="fa-solid fa-chevron-right"></i></button>
-            <button type="button<!-- km -->"></i></button>
-            <button type="button" onclick="moveLeft()" class="left"><i class="fa-sharp fa-solid<!--  --> fa-chevron-up"></i></button>
-        </div>
-        <!-- First page containing user info -->
-    <div id="userInfo">
-            <h1>HeadShot</h1>
-        <div class="img">
-            <img src="IMG-0_1.jpg">
-        </div>
-        <button id="submit" onclick="start()">Play</button>
-    </div>
-    
-    
-    
-        <div id="loss">
-				        <h2>Game Over</h2>
-				        
-				        <i><h3>Score:<span id="gameScore">0</span></h3></i>
-				        <button type="submit"onclick="start()" id="btn">Try Again</button>
-				 </div>
-				 
-				 
-				 
-        <div class="gameScreen">
-           <div class="scoreBoard">
-               <h1><i>Score </i>:<span id="dispScore">0</span></h1>
-               <h1><i>Time </i>:<span id="dispTime">60</span></h1>
-               
-           </div> 
-        
-        </div>
-        <audio id="mySong" src="background.mp3" type="audio/mp3" loop></audio>
-        <button id="on" onclick="startGame()"class="on"><i class="fa-solid fa-power-off"></i></button>
-        <div class="power">
-            <button id="pause">Pause</button>
-        </div>
-        
-        <div id="action">
-            <div class="actCircle"></div>
-            
-            <button type="button" class="triangle"><i class="fa-solid fa-play"></i></button>
-            <button type="button" class="circle"><i class="fa-regular fa-circle"></i></button>
-            <button type="button" id="x"onclick="kill()"class="x">❌</button>
-            <button type="button" class="square">🟥</button>
-        </div>
+			<h2 id="name">Cortana</h2>
+			<div id="direction">
+				<div class="backCircle"></div>
+				<button type="button" onclick="moveUp()" class="up"><i class="fa-solid fa-chevron-right"></i></button>
+				<button type="button"></i></button>
+				<button type="button" onclick="moveLeft()" class="left"><i class="fa-sharp fa-solid fa-chevron-up"></i></button>
+			</div>
+			<!-- First page containing user info -->
+		<div id="userInfo">
+				<h1>HeadShot</h1>
+			<div class="img">
+				<img src="IMG-0_1.jpg">
+			</div>
+			<button id="submit" onclick="start()">Play</button>
+		</div>
+
+		<div id="loss">
+			<h2>Game Over</h2>
+			<i><h3>Score:<span id="gameScore">0</span></h3></i>
+			<button type="submit"onclick="start()" id="btn">Try Again</button>
+		</div>
+
+		<div class="gameScreen">
+			 <div class="scoreBoard">
+				   <h1><i>Score </i>:<span id="dispScore">0</span></h1>
+				   <h1><i>Time </i>:<span id="dispTime">60</span></h1>
+			</div>  
+		</div>
+
+		<audio id="mySong" src="background.mp3" type="audio/mp3" loop></audio>
+		<button id="on" onclick="startGame()"class="on"><i class="fa-solid fa-power-off"></i></button>
+
+		<div class="power">
+			<button id="pause">Pause</button>
+		</div>
+
+		<div id="action">
+			<div class="actCircle"></div>
+			<button type="button" class="triangle"><i class="fa-solid fa-play"></i></button>
+			<button type="button" class="circle"><i class="fa-regular fa-circle"></i></button>
+			<button type="button" id="x"onclick="kill()"class="x">❌</button>
+			<button type="button" class="square">🟥</button>
+		</div>
             
     </div>
 </body>
